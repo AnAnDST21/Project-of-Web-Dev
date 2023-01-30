@@ -1,0 +1,28 @@
+/--------------------------  GIT  -------------------------/
+
+GIT basically used to store history of files or pages of its time to time changes in it.
+GITHUB allow us to host our project repositary.
+
+for set-up name  and email-id we used to wrtite in git as 
+    *git config --global user.name "your name"
+     git config --global user.email "email"
+There is another way to changes name and email-id
+     *git config --global --edit
+
+for making a new folder we write the command as
+	mkmdir foldername (it will create folder within folder
+and to get into that folder we write 
+	cd folder name/
+
+Repositary means it is folder where all changes are saved made in the project or file like something delete or add something changes made in project are saved in another folder of git that folder is called as repositary.
+to get into the repositary we used to write command as git init
+
+git status used to tell that what are the changes made in project which saved and unsaved and the files which are not saved in git history are showed as untracked filed in terminal and if we want to make file on the stage where after that all changes in files can be saved in git history we used write command as git add name-of-file-wnat-to-save.txt or git add -A it used to take all the files present in created folder on stage
+so now to save changes in git history we write command as git commit -m(it means message we can provide in between " ") "write the message") "
+after we used stage command we do use commit command to save the changes which was made in the file 
+
+When some one else done mistake in code of your project and you want complete same code back as it is it was before modified so then we use command git checkout file name with extension and if we want back all file as it was before modified then we use command git checkout -f so it will recover all project files
+
+git log command basically used to tell what all commit basically we have done and we have many commit and we want to see only last 5 commit then we have ti write command as git log -p -5
+
+git diff command staging file with last worked same file means is if we do some change in code and modify it and after that git diff command is used then it used to compare staging code file with modified file and tell the user about modification
